@@ -6,7 +6,7 @@ includeSpecial=false;
 isUserselected=true;
 // var securePass="a6"
 var finalPassword=""
- var numberOfChar=10;
+ var numberOfChar=0;
 
 // Write password to the #password input
 function writePassword() {
@@ -22,8 +22,8 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
   passChars=password;
-
   passwordText.value = password;
+  reset();
 
 }
 
@@ -88,10 +88,13 @@ var captureCharNum = function() {
     
 var generatePassword = function(){
  return password= finalPassword;
+ }
+var reset = function(){
+ numberOfChar= 0;
+ passChars="";
+ finalPassword="";
+
 }
-
-
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
