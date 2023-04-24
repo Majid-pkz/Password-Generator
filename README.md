@@ -24,3 +24,6 @@
 ## Mock-Up
 
 ![image](https://user-images.githubusercontent.com/116633682/204964781-4707e2d9-bfd2-43a5-8570-ab4706074b1b.png)
+
+## Link to the deployed page
+ https://majid-pkz.github.io/Password-Generator/
